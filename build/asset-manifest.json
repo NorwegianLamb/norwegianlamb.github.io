@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/norwegianlamb.github.io/static/css/main.964fdded.css",
-    "main.js": "/norwegianlamb.github.io/static/js/main.2e2ae82a.js",
-    "static/js/787.4321cad8.chunk.js": "/norwegianlamb.github.io/static/js/787.4321cad8.chunk.js",
-    "index.html": "/norwegianlamb.github.io/index.html",
-    "main.964fdded.css.map": "/norwegianlamb.github.io/static/css/main.964fdded.css.map",
-    "main.2e2ae82a.js.map": "/norwegianlamb.github.io/static/js/main.2e2ae82a.js.map",
-    "787.4321cad8.chunk.js.map": "/norwegianlamb.github.io/static/js/787.4321cad8.chunk.js.map"
+    "main.css": "/static/css/main.964fdded.css",
+    "main.js": "/static/js/main.7857a1fc.js",
+    "static/js/787.4321cad8.chunk.js": "/static/js/787.4321cad8.chunk.js",
+    "index.html": "/index.html",
+    "main.964fdded.css.map": "/static/css/main.964fdded.css.map",
+    "main.7857a1fc.js.map": "/static/js/main.7857a1fc.js.map",
+    "787.4321cad8.chunk.js.map": "/static/js/787.4321cad8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.964fdded.css",
-    "static/js/main.2e2ae82a.js"
+    "static/js/main.7857a1fc.js"
   ]
 }
