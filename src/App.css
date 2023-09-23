@@ -1,3 +1,18 @@
 .App {
   text-align: center;
+  display: flex;
+}
+
+.rectangle {
+  width: 85%;
+  height: 40%;
+  border: 3px solid aliceblue;
+  border-radius: 10px;
+  background-color: black;
+  margin: 2% auto; /* To center horiz. */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
