@@ -5,21 +5,21 @@ import * as THREE from 'three';
 
 function App() {
   useEffect(() => {
-    const canvas = document.getElementById('render-canvas')
+    const canvas = document.getElementById('render-canvas');
     const div = document.getElementById('rectangleView');
     const scene = new THREE.Scene();
-    //scene.background = new THREE.Color(0x212121);
+    scene.background = new THREE.Color(0x101010);
     const camera = new THREE.PerspectiveCamera(
       50, // fov
-      div.innerWidth / div.innerHeight, // ratio
+      div.clientWidth / div.clientHeight, // ratio
       1, // near clipping plane
       1000 // far clipping plane
     );
-    camera.position.set(0, 10, 100);
+    camera.position.set(0, -50, 25);
     camera.lookAt(0, 0, 0);
     scene.add(camera);
     const renderer = new THREE.WebGLRenderer({ canvas, antialias:true });
-    renderer.setSize(div.innerWidth, div.innerHeight);
+    renderer.setSize(div.clientWidth, div.clientHeight);
     div.appendChild(renderer.domElement);
 
     const ambientLight =  new THREE.AmbientLight(0xffffff, 0.5);
@@ -41,6 +41,7 @@ function App() {
       window.requestAnimationFrame(animate);
     };
     animate();
+
   }, []);
 
   return (
