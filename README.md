@@ -1,2 +1,7 @@
-## Building my personal portfolio and hosting it with GH
-I'm planning to add a 3D environment using Three.JS, maybe just a small rectangle with a 3d cartoonish version of me working in his bedroom (selecting activities will switch camera view)
+# Building my personal portfolio and hosting it with GH
+Hey! I'm building my personal portfolio and hosting it with GH, check it out: [norwegianlamb's portfolio](https://norwegianlamb.github.io/)
+
+I'm integrating Three.js too, I would like to use a 3D model as a viasual representation of which section of the website you're visiting.
+
+## Current status:
+Work in progress!
