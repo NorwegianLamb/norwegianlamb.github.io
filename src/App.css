@@ -15,3 +15,7 @@
   left: 0;
   right: 0;
 }
+
+#render-canvas{
+  border-radius: 10px;
+}
