@@ -1,21 +1,69 @@
 .App {
-  text-align: center;
   display: flex;
+  flex-direction: column;
 }
 
-.rectangle {
-  width: 85%;
-  height: 40%;
-  border: 3px solid aliceblue;
-  border-radius: 10px;
-  margin: 2% auto; /* To center horiz. */
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
 
-#render-canvas{
-  border-radius: 10px;
+
+
+/* NAV PART --------------------------------------------- */
+nav{
 }
+/* ------------------------------------------------------- */
+
+
+
+
+
+/* MAIN PART --------------------------------------------- */
+main {
+  display: flex;
+  flex-direction: column;
+}
+  /* CANVAS CHILD --------------------------------------------- */
+  .rectangle {
+    width: 85%;
+    height: 300px;
+    border: 3px solid aliceblue;
+    border-radius: 10px;
+    margin: 2% auto; /* To center horiz. */ 
+  }
+  #render-canvas {
+    border-radius: 5px;
+  }
+  /* ------------------------------------------------------- */
+
+  .testingFlex{
+    font-size: 28px;
+    text-align: center;
+  }
+
+  @keyframes dotAnimation {
+    0% {
+      content: "Website under development..";
+    }
+    33% {
+      content: "Website under development...";
+    }
+    66% {
+      content: "Website under development.";
+    }
+    100% {
+      content: "Website under development..";
+    }
+  }
+  
+  .testingFlex h1::after {
+    content: ""; /* Initial space to separate text from dots */
+    width: 0;
+    animation: dotAnimation 3s infinite; /* Adjust the duration as needed */
+  } 
+/* ------------------------------------------------------- */
+
+
+
+
+
+footer {
+}
+/* ------------------------------------------------------- */
