@@ -79,8 +79,10 @@ main {
   }
   
   .testingFlex h1::after {
+    /*
     animation: dotAnimation 10s forwards;
     content: "Hello, I am Flavio!";
+    */
   } 
 /* ------------------------------------------------------- */
 
